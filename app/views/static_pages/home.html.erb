@@ -1,8 +1,21 @@
-<h1>Sample App</h1>
-<p>
-  This is a home page for a sample application. </br>
-  Find me in app/views/static_pages/home.html.erb </br>
-  <a href="/static_pages/home">home</a>
-  <a href="/static_pages/help">help</a>
-  <a href="/static_pages/about">about</a>
-</p>
+<div class="center hero-unit">
+  <h1>Welcome to the Sample App</h1>
+  <h2>
+    This is the home page for Greg's sample application.
+  </h2>
+
+  <%= link_to "Sign up now!", '#', class: "btn btn-large btn-primary" %>
+</div>
+
+<%= link_to image_tag("rails.png", alt: "Rails"), 'http://rubyonrails.org/' %>
+
+  <!--
+  <p>
+    This is a home page for a sample application. </br>
+    Find me in app/views/static_pages/home.html.erb </br>
+    <a href="/static_pages/home">home</a>
+    <a href="/static_pages/help">help</a>
+    <a href="/static_pages/about">about</a>
+  </p>
+  -->
+
